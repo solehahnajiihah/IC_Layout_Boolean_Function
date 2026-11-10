@@ -1,0 +1,20 @@
+*** SPICE deck for cell project{lay} from library poject_layout
+*** Created on Thu Nov 05, 2026 11:23:13
+*** Last revised on Thu Nov 05, 2026 15:26:49
+*** Written on Thu Nov 05, 2026 15:32:18 by Electric VLSI Design System, version 9.08
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+*** WARNING: no ground connection for N-transistor wells in cell 'project{lay}'
+
+*** TOP LEVEL CELL: project{lay}
+MNMOS net@38 a out gnd N L=0.4U W=0.6U AS=13.9P AD=4.14P PS=43.933U PD=10.8U
+MNMOS_2 net@37 b net@38 gnd N L=0.4U W=0.6U AS=4.14P AD=4.14P PS=10.8U PD=10.8U
+MNMOS_3 net@34 c net@37 gnd N L=0.4U W=0.6U AS=4.14P AD=3.96P PS=10.8U PD=10.2U
+MNMOS_4 gnd d net@34 gnd N L=0.4U W=0.6U AS=3.96P AD=52.2P PS=10.2U PD=60U
+MNMOS_5 out e gnd gnd N L=0.4U W=0.6U AS=52.2P AD=13.9P PS=60U PD=43.933U
+MPMOS vdd a net@2 vdd P L=0.4U W=0.6U AS=13.916P AD=27.11P PS=30.52U PD=33.7U
+MPMOS_3 vdd c net@2 vdd P L=0.4U W=0.6U AS=13.916P AD=27.11P PS=30.52U PD=33.7U
+MPMOS_4 net@2 d vdd vdd P L=0.4U W=0.6U AS=27.11P AD=13.916P PS=33.7U PD=30.52U
+MPMOS_5 out e net@2 vdd P L=0.4U W=0.6U AS=13.916P AD=13.9P PS=30.52U PD=43.933U
+Mpmos@2 net@2 b vdd vdd P L=0.4U W=0.6U AS=27.11P AD=13.916P PS=33.7U PD=30.52U
+.END
