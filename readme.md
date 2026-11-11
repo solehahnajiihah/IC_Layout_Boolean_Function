@@ -48,6 +48,15 @@ The Electric library records a prior DRC and LVS check, as shown in picture belo
 
 <img width="508" height="182" alt="image" src="https://github.com/user-attachments/assets/b9b26b0a-7fb7-47eb-a5f6-8fedeb0a5daf" />
 
+## Project Schematic
+<img width="589" height="732" alt="image" src="https://github.com/user-attachments/assets/97d689e7-78fa-453f-bc9e-c8d477ee06b1" />
+
+## Project Layout 
+<img width="880" height="695" alt="image" src="https://github.com/user-attachments/assets/1fa42253-0948-45c4-a379-87e2c6cebacb" />
+
+
+
+
 
 ## Reproducing the available simulation
 
